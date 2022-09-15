@@ -54,7 +54,7 @@ cat <<EOF >/etc/v2ray/config.json
     },
     "inbounds": [
     {
-      "port": 10809,
+      "port": 8080,
       "protocol": "VLESS",
       "settings": {
         "clients": [
@@ -75,6 +75,7 @@ cat <<EOF >/etc/v2ray/config.json
   ],
     "outbounds": [
         {
+            "port": 10809,
             "protocol": "http"
         }
     ]
