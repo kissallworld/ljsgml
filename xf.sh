@@ -75,8 +75,7 @@ cat <<EOF >/etc/v2ray/config.json
   ],
     "outbounds": [
         {
-            "port": 10809,
-            "protocol": "http"
+            "protocol": "freedom"
         }
     ]
 }
