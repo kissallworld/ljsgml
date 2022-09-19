@@ -1,4 +1,4 @@
-name: tryagainLj
+name: BestLj
 
 on:
   workflow_dispatch:
@@ -25,4 +25,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: kissallworld/tryagainLj
+          tags: kissallworld/BestLj
