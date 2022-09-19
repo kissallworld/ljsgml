@@ -60,17 +60,14 @@ cat <<EOF >/etc/v2ray/config.json
       "settings": {
         "clients": [
           {
-            "id": "bda63b31-278a-4148-a03f-4b92fa585765",
+            "id": "72215762-e76c-4f3e-ae53-4beb645481a0",
             "alterId": 0
           }
         ],
         "disableInsecureEncryption": true
       },
       "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
+        "network": "ws"
       }
     }
   ],
