@@ -1,4 +1,4 @@
-name: BestLj
+name: lljj
 
 on:
   workflow_dispatch:
@@ -25,4 +25,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: kissallworld/BestLj
+          tags: kissallworld/lljj
