@@ -1,4 +1,4 @@
-name: lljj
+name: testagain
 
 on:
   workflow_dispatch:
@@ -25,4 +25,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: docker_id/lljj
+          tags: docker_id/testagain
